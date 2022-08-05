@@ -1,0 +1,9 @@
+*.opendb
+*.pdb
+*.tlog
+*.obj
+*.ipch
+*.log
+*.db
+*.VC.db
+!.vs/

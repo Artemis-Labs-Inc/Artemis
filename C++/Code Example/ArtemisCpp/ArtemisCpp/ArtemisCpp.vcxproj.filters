@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="External">
+      <UniqueIdentifier>{1786d68a-9979-4873-a66a-b458c10c1da5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\Source">
+      <UniqueIdentifier>{9044b0c2-5745-490f-b06a-92b6dacd1d87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\Header">
+      <UniqueIdentifier>{fd4467d3-19e1-47ad-9042-69e5a2c4a5db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\App">
+      <UniqueIdentifier>{75d89cd9-c5ea-43bc-9eef-137e0824f844}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ArtemisTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="external\artemis\CArtemis.cpp">
+      <Filter>External\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="external\artemis\CArtemisSocket.cpp">
+      <Filter>External\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="external\artemis\jsoncpp.cpp">
+      <Filter>External\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="external\artemis\WebsocketServer.cpp">
+      <Filter>External\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="external\artemis\CArtemis.h">
+      <Filter>External\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="external\artemis\CArtemisSocket.h">
+      <Filter>External\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="external\artemis\framework.h">
+      <Filter>External\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="external\artemis\WebsocketServer.h">
+      <Filter>External\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="external\base64\base64.h">
+      <Filter>External\Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\x64\Debug\app.json">
+      <Filter>External\App</Filter>
+    </None>
+  </ItemGroup>
+</Project>
